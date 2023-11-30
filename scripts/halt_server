@@ -1,5 +1,4 @@
 #!/bin/bash
-#this is to stop the service
 isExistApp = `pgrep httpd`
 if [[ -n  $isExistApp ]]; then
     service httpd stop        
